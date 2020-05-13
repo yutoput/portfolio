@@ -9,6 +9,10 @@
 }
 
 @media (min-width: 700px) {
+  header h1 {
+    font-size: 40px;
+    line-height: 5em;
+  }
   iframe {
     width: 560px;
     height: 315px;
