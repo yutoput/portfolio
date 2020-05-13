@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+@media(min-width: 560px) {
+  iframe {
+    width: 432px;
+    height: 240px;
+  }
+}
+
+@media (min-width: 700px) {
+  header h1 {
+    font-size: 40px;
+    line-height: 5em;
+  }
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .soccer-skills {
+    display: flex;
+  }
+  iframe {
+    width: 720px;
+    height: 400px;
+  }
+}
